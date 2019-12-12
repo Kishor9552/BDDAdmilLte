@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "D:\\Nilesh Cucumber Project\\AdminLTE_BDD\\src\\main\\java\\feature",   //path of Freature Files
+		features = "E:\\AkashProject\\BDD\\src\\main\\java\\feature\\Login.feature",   //path of Freature Files
 		glue = {"stepDefinition"},										//path f Step Definition Files
 		format = {"pretty","html:test-output"},						//to generate diff type of reports
 		monochrome = true,	    //Display o/p in proper readable format
